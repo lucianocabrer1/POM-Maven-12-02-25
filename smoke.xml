@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Luciano-2025-ED-IT" parallel="tests" thread-count="3" verbose="10">
+
+    <test name="Login Correcto">
+        <classes>
+            <class name="Test.LoginOK"></class>
+        </classes>
+    </test>
+    <test name="Login incorrecto">
+        <classes>
+            <class name="Test.LoginFailed"></class>
+        </classes>
+    </test>
+</suite>
