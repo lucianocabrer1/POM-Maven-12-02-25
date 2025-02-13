@@ -23,7 +23,7 @@ public class DriverManager {
                 ChromeOptions options = new ChromeOptions();
                 options.addArguments("--start-maximized");
                 options.addArguments("--disable-infobars");
-                //options.addArguments("--headless");
+                options.addArguments("--headless");
                 options.addArguments("--disable-extensions");
                 driver = new ChromeDriver(options);
                 break;
